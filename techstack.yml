@@ -1,0 +1,1017 @@
+repo_name: 2lambda123/kg-search
+report_id: 67cf8a08631b356e7084c3f4d8a6d4b4
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:53:20+00:00'
+requested_by: 2lambda123
+provider: github
+branch: main
+detected_tools_count: 76
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/kg-search
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/kg-search
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/kg-search
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/kg-search
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/kg-search
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-22 08:57:44.000000000 Z
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: gdenerva
+  last_updated_on: 2018-05-31 13:30:50.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/Dockerfile
+  detection_source: ui/Dockerfile
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2020-03-03 13:03:52.000000000 Z
+- name: Normalize.css
+  description: A modern alternative to CSS resets
+  website_url: https://necolas.github.io/normalize.css/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: gdenervaud
+  last_updated_on: 2023-08-23 01:00:33.000000000 Z
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-22 08:57:44.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-22 08:57:44.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-22 08:57:44.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  version: 3.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/kg-search
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: gdenerva
+  last_updated_on: 2018-05-31 13:30:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/kg-search
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: gdenerva
+  last_updated_on: 2018-05-31 13:30:50.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-22 08:57:44.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-03-02 10:32:21.000000000 Z
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: Sentry
+  description: 'See performance issues, fix errors faster, and optimize code health. '
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: gdenerva
+  last_updated_on: 2018-05-31 13:30:50.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/services/kg-indexing/src/main/resources/application.properties
+  detection_source: service/services/kg-indexing/src/main/resources/application.properties
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: gdenervaud
+  last_updated_on: 2022-06-15 08:23:46.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: gdenervaud
+  last_updated_on: 2022-04-28 13:21:30.000000000 Z
+- name: Showdown
+  description: JavaScript port of Markdown
+  website_url: https://github.com/coreyti/showdown
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 6.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Gilles Dénervaud
+  last_updated_on: 2023-11-28 15:18:17.000000000 Z
+- name: "@fortawesome/free-regular-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-regular-svg-icons
+  version: 6.4.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18157/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Gilles Dénervaud
+  last_updated_on: 2023-11-28 15:18:17.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 6.4.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Gilles Dénervaud
+  last_updated_on: 2023-11-28 15:18:17.000000000 Z
+- name: "@fortawesome/react-fontawesome"
+  description: Official React component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/react-fontawesome
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16936/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Gilles Dénervaud
+  last_updated_on: 2023-11-28 15:18:17.000000000 Z
+- name: "@sentry/browser"
+  description: Official Sentry SDK for browsers
+  package_url: https://www.npmjs.com/@sentry/browser
+  version: 7.71.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18385/default_3918a37cf2f76449e061a2c79fb02113faa1391a.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 6.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 7.8.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: gdenerva
+  last_updated_on: 2018-05-31 13:30:50.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 3.6.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.33.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: gdenervaud
+  last_updated_on: 2023-05-24 08:38:56.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-22 08:57:44.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 8.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-22 08:57:44.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: react-tooltip
+  description: React tooltip component
+  package_url: https://www.npmjs.com/react-tooltip
+  version: 5.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17696/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: redux-logger
+  description: Logger for Redux
+  package_url: https://www.npmjs.com/redux-logger
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: sanitize-html
+  description: Clean up user-submitted HTML
+  package_url: https://www.npmjs.com/sanitize-html
+  version: 2.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17508/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-09-26 08:07:18.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/ui/package-lock.json
+  detection_source: ui/package.json
+  last_updated_by: Ioannis Tsanaktsidis
+  last_updated_on: 2023-11-07 13:51:43.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+  description: Data format extension for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: gdenervaud
+  last_updated_on: 2022-06-15 08:23:46.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: gdenervaud
+  last_updated_on: 2022-06-15 08:23:46.000000000 Z
+- name: io.micrometer:micrometer-registry-prometheus
+  description: Application monitoring instrumentation facade
+  version: 1.9.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: io.projectreactor:reactor-test
+  description: Reactor Test support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: javax.cache:cache-api
+  description: Sonatype helps open source projects to set up Maven repositories on
+    https://oss.sonatype.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-27 13:08:37.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.11'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: 1.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.apache.lucene:lucene-analyzers-common
+  description: Additional Analyzers
+  version: 8.11.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/services/kg-search/pom.xml
+  detection_source: service/services/kg-search/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.apache.lucene:lucene-queryparser
+  description: Lucene QueryParsers module
+  version: 9.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/services/kg-search/pom.xml
+  detection_source: service/services/kg-search/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.ehcache:ehcache
+  description: Ehcache single jar, containing all modules
+  version: 3.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/services/kg-indexing/pom.xml
+  detection_source: service/services/kg-indexing/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
+- name: org.springframework.security:spring-security-config
+  description: Spring-security-config
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/kg-search/blob/main/service/libs/kg-common/pom.xml
+  detection_source: service/libs/kg-common/pom.xml
+  last_updated_by: Oliver Schmid
+  last_updated_on: 2023-04-25 15:54:07.000000000 Z
