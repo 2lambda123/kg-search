@@ -27,10 +27,12 @@ import eu.ebrains.kg.common.model.DataStage;
 import eu.ebrains.kg.common.model.source.ResultsOfKGv3;
 import eu.ebrains.kg.common.model.source.openMINDSv3.ControlledTermV3;
 import eu.ebrains.kg.common.model.target.elasticsearch.instances.ControlledTerm;
+import eu.ebrains.kg.common.model.source.openMINDSv3.ControlledTermV3;
 import eu.ebrains.kg.common.model.target.elasticsearch.instances.commons.TargetExternalReference;
 import eu.ebrains.kg.common.model.target.elasticsearch.instances.commons.Value;
 import eu.ebrains.kg.common.utils.IdUtils;
 import eu.ebrains.kg.common.utils.TranslationException;
+import eu.ebrains.kg.common.utils.TranslatorUtils;
 import eu.ebrains.kg.common.utils.TranslatorUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
@@ -137,6 +139,9 @@ public class ControlledTermV3Translator extends TranslatorV3<ControlledTermV3, C
 
     public ControlledTerm translate(ControlledTermV3 controlledTerm, DataStage dataStage, boolean liveMode, TranslatorUtils translatorUtils) throws TranslationException {
         ControlledTerm t = new ControlledTerm();
+if(controlledTerm == null){
+    throw new TranslationException("ControlledTermV3 instance is null.");
+}
 
         final List<String> type = controlledTerm.getType();
         String category = "Controlled Term";
@@ -159,7 +164,7 @@ public class ControlledTermV3Translator extends TranslatorV3<ControlledTermV3, C
                 StringUtils.isBlank(controlledTerm.getInterlexIdentifier()) &&
                 StringUtils.isBlank(controlledTerm.getPreferredOntologyIdentifier())
         ){
-            return null;
+            throw new TranslationException("ControlledTermV3 has incomplete data, translation failed.");
         }
         t.setDescription(StringUtils.isBlank(controlledTerm.getDescription()) ? null : new Value<>(controlledTerm.getDescription()));
         t.setDefinition(StringUtils.isBlank(controlledTerm.getDefinition()) ? null : new Value<>(controlledTerm.getDefinition()));
